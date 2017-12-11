@@ -1,0 +1,50 @@
+// Form
+//
+// Basic styling of input elements
+
+// Basically a clone of basscss/addons/forms
+
+@mixin aether-form-label {
+  font-size: .875rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+@mixin aether-form-input {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+@mixin aether-form-select {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+@mixin aether-form-textarea {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}

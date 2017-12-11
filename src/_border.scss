@@ -1,0 +1,49 @@
+// Border
+//
+// Control lines around elements
+
+// Basically a clone of basscss/border
+
+$border-width: 1px !default;
+$border-radius: 3px !default;
+
+@mixin border {
+  border-style: solid;
+  border-width: $border-width;
+}
+
+@mixin border-top {
+  border-top-style: solid;
+  border-top-width: $border-width;
+}
+
+@mixin border-right {
+  border-right-style: solid;
+  border-right-width: $border-width;
+}
+
+@mixin border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: $border-width;
+}
+
+@mixin border-left {
+  border-left-style: solid;
+  border-left-width: $border-width;
+}
+
+@mixin border-none { border: 0 }
+
+@mixin rounded { border-radius: $border-radius }
+
+@mixin circle  { border-radius: 50% }
+
+@mixin rounded-top    { border-radius: $border-radius $border-radius 0 0 }
+
+@mixin rounded-right  { border-radius: 0 $border-radius $border-radius 0 }
+
+@mixin rounded-bottom { border-radius: 0 0 $border-radius $border-radius }
+
+@mixin rounded-left   { border-radius: $border-radius 0 0 $border-radius }
+
+@mixin not-rounded { border-radius: 0 }

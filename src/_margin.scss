@@ -1,0 +1,94 @@
+// Margin
+//
+// Control spacing outside elements
+
+// Basically a clone of basscss/margin
+
+$space-1: .5rem !default;
+$space-2: 1rem !default;
+$space-3: 2rem !default;
+$space-4: 4rem !default;
+
+@mixin m0  { margin:        0 }
+
+@mixin mt0 { margin-top:    0 }
+
+@mixin mr0 { margin-right:  0 }
+
+@mixin mb0 { margin-bottom: 0 }
+
+@mixin ml0 { margin-left:   0 }
+
+@mixin mx0 { margin-left:   0; margin-right:  0 }
+
+@mixin my0 { margin-top:    0; margin-bottom: 0 }
+
+@mixin m1  { margin:        $space-1 }
+
+@mixin mt1 { margin-top:    $space-1 }
+
+@mixin mr1 { margin-right:  $space-1 }
+
+@mixin mb1 { margin-bottom: $space-1 }
+
+@mixin ml1 { margin-left:   $space-1 }
+
+@mixin mx1 { margin-left:   $space-1; margin-right:  $space-1 }
+
+@mixin my1 { margin-top:    $space-1; margin-bottom: $space-1 }
+
+@mixin m2  { margin:        $space-2 }
+
+@mixin mt2 { margin-top:    $space-2 }
+
+@mixin mr2 { margin-right:  $space-2 }
+
+@mixin mb2 { margin-bottom: $space-2 }
+
+@mixin ml2 { margin-left:   $space-2 }
+
+@mixin mx2 { margin-left:   $space-2; margin-right:  $space-2 }
+
+@mixin my2 { margin-top:    $space-2; margin-bottom: $space-2 }
+
+@mixin m3  { margin:        $space-3 }
+
+@mixin mt3 { margin-top:    $space-3 }
+
+@mixin mr3 { margin-right:  $space-3 }
+
+@mixin mb3 { margin-bottom: $space-3 }
+
+@mixin ml3 { margin-left:   $space-3 }
+
+@mixin mx3 { margin-left:   $space-3; margin-right:  $space-3 }
+
+@mixin my3 { margin-top:    $space-3; margin-bottom: $space-3 }
+
+@mixin m4  { margin:        $space-4 }
+
+@mixin mt4 { margin-top:    $space-4 }
+
+@mixin mr4 { margin-right:  $space-4 }
+
+@mixin mb4 { margin-bottom: $space-4 }
+
+@mixin ml4 { margin-left:   $space-4 }
+
+@mixin mx4 { margin-left:   $space-4; margin-right:  $space-4 }
+
+@mixin my4 { margin-top:    $space-4; margin-bottom: $space-4 }
+
+@mixin mxn1 { margin-left: -$space-1; margin-right: -$space-1; }
+
+@mixin mxn2 { margin-left: -$space-2; margin-right: -$space-2; }
+
+@mixin mxn3 { margin-left: -$space-3; margin-right: -$space-3; }
+
+@mixin mxn4 { margin-left: -$space-4; margin-right: -$space-4; }
+
+@mixin ml-auto { margin-left: auto }
+
+@mixin mr-auto { margin-right: auto }
+
+@mixin mx-auto { margin-left: auto; margin-right: auto; }

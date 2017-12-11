@@ -1,0 +1,5 @@
+@import "~system-font-css/system-font";
+
+@mixin system-font {
+  font-family: system-ui;
+}

@@ -1,0 +1,80 @@
+// Padding
+//
+// Control spacing inside element
+
+// Basically a clone of basscss/padding
+
+$space-1: .5rem !default;
+$space-2: 1rem !default;
+$space-3: 2rem !default;
+$space-4: 4rem !default;
+
+@mixin p0  { padding: 0 }
+
+@mixin pt0 { padding-top: 0 }
+
+@mixin pr0 { padding-right: 0 }
+
+@mixin pb0 { padding-bottom: 0 }
+
+@mixin pl0 { padding-left: 0 }
+
+@mixin px0 { padding-left: 0; padding-right:  0 }
+
+@mixin py0 { padding-top: 0;  padding-bottom: 0 }
+
+@mixin p1  { padding:        $space-1 }
+
+@mixin pt1 { padding-top:    $space-1 }
+
+@mixin pr1 { padding-right:  $space-1 }
+
+@mixin pb1 { padding-bottom: $space-1 }
+
+@mixin pl1 { padding-left:   $space-1 }
+
+@mixin py1 { padding-top:    $space-1; padding-bottom: $space-1 }
+
+@mixin px1 { padding-left:   $space-1; padding-right:  $space-1 }
+
+@mixin p2  { padding:        $space-2 }
+
+@mixin pt2 { padding-top:    $space-2 }
+
+@mixin pr2 { padding-right:  $space-2 }
+
+@mixin pb2 { padding-bottom: $space-2 }
+
+@mixin pl2 { padding-left:   $space-2 }
+
+@mixin py2 { padding-top:    $space-2; padding-bottom: $space-2 }
+
+@mixin px2 { padding-left:   $space-2; padding-right:  $space-2 }
+
+@mixin p3  { padding:        $space-3 }
+
+@mixin pt3 { padding-top:    $space-3 }
+
+@mixin pr3 { padding-right:  $space-3 }
+
+@mixin pb3 { padding-bottom: $space-3 }
+
+@mixin pl3 { padding-left:   $space-3 }
+
+@mixin py3 { padding-top:    $space-3; padding-bottom: $space-3 }
+
+@mixin px3 { padding-left:   $space-3; padding-right:  $space-3 }
+
+@mixin p4  { padding:        $space-4 }
+
+@mixin pt4 { padding-top:    $space-4 }
+
+@mixin pr4 { padding-right:  $space-4 }
+
+@mixin pb4 { padding-bottom: $space-4 }
+
+@mixin pl4 { padding-left:   $space-4 }
+
+@mixin py4 { padding-top:    $space-4; padding-bottom: $space-4 }
+
+@mixin px4 { padding-left:   $space-4; padding-right:  $space-4 }
