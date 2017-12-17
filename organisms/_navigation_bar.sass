@@ -1,0 +1,31 @@
+@import "../core/margin"
+@import "../core/padding"
+
+// Navigation Bar
+//
+// A navigation bar enables navigation through a series of hierarchical screens.
+//
+// When a new screen is displayed, a back button, often labeled with the title
+// of the previous screen, appears on the left side of the bar. Sometimes, the
+// right side of a navigation bar contains a control, like an Edit or a Done
+// button, for managing the content within the active view.
+//
+// * [iOS documentation](https://developer.apple.com/ios/human-interface-guidelines/bars/navigation-bars/)
+@mixin aether-navigation-bar
+  display: flex
+  justify-content: space-between
+
+@mixin aether-navigation-bar-item
+  +p2
+  display: inline-block
+  text-decoration: none
+  &:link,
+  &:visited,
+  &:hover,
+  &:active
+    color: inherit
+
+@mixin aether-navigation-bar-title
+  +m0
+  +p2
+  +pt0
