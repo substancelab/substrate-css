@@ -1,7 +1,7 @@
 {
-  "name": "aethercss-core",
+  "name": "aethercss",
   "version": "0.0.1",
-  "description": "Core components of AetherCSS. Parts of the stylesheet that aren't really useful on their own",
+  "description": "AetherCSS - A modern CSS UI kit designed to not really be there",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
