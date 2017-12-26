@@ -1,11 +1,12 @@
-@import "../../core/padding"
+@import "../../core/padding";
 
 // Table
 //
 // Base styling for `table` elements and its dependents, like `th`, `tr` etc
-table
+table {}
 
 td,
-th
-  +px2
-  +py1
+th {
+  @include px2;
+  @include py1;
+}

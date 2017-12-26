@@ -1,0 +1,41 @@
+@import "../core/margin";
+@import "../core/padding";
+
+// Tab Bar
+//
+// Provides the ability to quickly switch between different sections of an app.
+//
+// A tab bar may contain any number of tabs, but should be limited to 5 or less.
+//
+// * [iOS documentation](https://developer.apple.com/ios/human-interface-guidelines/bars/tab-bars/)
+
+$tab-bar-color: #333333 !default;
+$tab-bar-text-color: lighten($tab-bar-color, 50%) !default;
+
+@mixin aether-tab-bar {
+  background-color: $tab-bar-color;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+
+@mixin aether-tab-bar-item {
+  @include p2;
+  color: $tab-bar-text-color;
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: none;
+}
+
+@mixin aether-tab-bar-item-icon {
+  font-size: 1.6em;
+}
+
+@mixin aether-tab-bar-item-title {
+  @include mt1;
+}
