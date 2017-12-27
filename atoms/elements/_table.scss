@@ -2,7 +2,26 @@
 
 // Table
 //
-// Base styling for `table` elements and its dependents, like `th`, `tr` etc
+// Base styling for `table` elements and its dependents, like `th`, `tr` etc.
+//
+// ```
+// <table>
+//   <thead>
+//     <tr>
+//       <th>Some header</th>
+//       <th>Another header</th>
+//     </tr>
+//   </thead>
+//   <tbody>
+//     <tr>
+//       <td>Some value</td>
+//       <td>Another value</td>
+//     </tr>
+//   </tbody>
+// </table>
+// ```
+//
+// Styleguide Elements.Table
 table {}
 
 td,

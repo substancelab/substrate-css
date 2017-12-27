@@ -1,0 +1,15 @@
+{
+  "title": "Aether CSS",
+  "files": [
+    "core/**/*.s?ss",
+    "atoms/**/*.s?ss",
+    "organisms/*.s?ss"
+  ],
+  "target": "docs",
+  "css": "",
+  "namespace": "page",
+  "verbose": 3,
+  "counterCSS": null,
+  "staticLipsum": true,
+  "placeholderService": true
+}

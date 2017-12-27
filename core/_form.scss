@@ -1,9 +1,22 @@
 // Form
 //
-// Basic styling of input elements
+// Basic styling of input elements.
+//
+// Styleguide: Core.Form
 
 // Basically a clone of basscss/addons/forms
 
+// aether-form-label
+//
+// Adds label-styling to an element.
+//
+// ```
+// label {
+//   @include aether-form-label;
+// }
+// ```
+//
+// Styleguide: Core.Form.Label
 @mixin aether-form-label {
   font-size: .875rem;
   font-weight: bold;
@@ -11,6 +24,17 @@
   margin-bottom: .5rem;
 }
 
+// aether-form-input
+//
+// Adds styling for an interactive input control, like a text input field.
+//
+// ```
+// input[type=text] {
+//   @include aether-form-input;
+// }
+// ```
+//
+// Styleguide: Core.Form.Input
 @mixin aether-form-input {
   font-family: inherit;
   font-size: inherit;
