@@ -1,4 +1,4 @@
-@import "~system-font-css/system-font";
+@import "../vendor/system-font-css/system-font";
 
 @mixin system-font {
   font-family: system-ui;
