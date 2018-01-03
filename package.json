@@ -1,6 +1,6 @@
 {
   "name": "aethercss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AetherCSS - A modern CSS UI kit designed to not really be there",
   "main": "src/index.js",
   "scripts": {
