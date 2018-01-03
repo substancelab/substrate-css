@@ -1,5 +1,8 @@
 # Aether CSS
 
+A CSS/Sass toolkit designed to provide a robust, consistent foundation for your design system, and otherwise get out of your way and not be noticable.
+
+
 ## Credits
 
 This repository includes and builds on the great works of others, standing on the shoulders of giants:
