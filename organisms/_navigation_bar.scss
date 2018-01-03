@@ -18,9 +18,25 @@
   justify-content: space-between;
 }
 
+@mixin aether-navigation-bar-back {
+  flex-basis: 15%;
+  margin-right: auto;
+  order: 0;
+}
+
+@mixin aether-navigation-bar-forward {
+  display: flex;
+  flex-basis: 15%;
+  justify-content: flex-end;
+  order: 2;
+}
+
 @mixin aether-navigation-bar-item {
+  @include m0;
   @include p2;
+
   display: inline-block;
+  font-size: 1em;
   text-decoration: none;
 
   &:link,
@@ -31,8 +47,9 @@
   }
 }
 
+// The element that contains the title, not the actual title itself.
 @mixin aether-navigation-bar-title {
-  @include m0;
-  @include p2;
-  @include pt0;
+  flex-basis: 70%;
+  order: 1;
+  text-align: center;
 }
