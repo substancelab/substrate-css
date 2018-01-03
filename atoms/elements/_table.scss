@@ -28,4 +28,6 @@ td,
 th {
   @include px2;
   @include py1;
+
+  text-align: left;
 }
