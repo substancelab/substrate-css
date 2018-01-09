@@ -1,4 +1,4 @@
-# Aether CSS
+# Substrate CSS
 
 A CSS/Sass toolkit designed to provide a robust, consistent foundation for your design system, and otherwise get out of your way and not be noticable.
 
