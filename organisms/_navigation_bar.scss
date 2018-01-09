@@ -13,25 +13,25 @@
 // * [iOS documentation](https://developer.apple.com/ios/human-interface-guidelines/bars/navigation-bars/)
 //
 // Styleguide Organisms.Navigation Bar
-@mixin aether-navigation-bar {
+@mixin substrate-navigation-bar {
   display: flex;
   justify-content: space-between;
 }
 
-@mixin aether-navigation-bar-back {
+@mixin substrate-navigation-bar-back {
   flex-basis: 15%;
   margin-right: auto;
   order: 0;
 }
 
-@mixin aether-navigation-bar-forward {
+@mixin substrate-navigation-bar-forward {
   display: flex;
   flex-basis: 15%;
   justify-content: flex-end;
   order: 2;
 }
 
-@mixin aether-navigation-bar-item {
+@mixin substrate-navigation-bar-item {
   @include m0;
   @include p2;
 
@@ -48,7 +48,7 @@
 }
 
 // The element that contains the title, not the actual title itself.
-@mixin aether-navigation-bar-title {
+@mixin substrate-navigation-bar-title {
   flex-basis: 70%;
   order: 1;
   text-align: center;

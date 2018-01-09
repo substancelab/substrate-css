@@ -18,10 +18,10 @@
 //
 // ```scss
 // .tab-bar {
-//   @include @aether-tab-bar;
+//   @include @substrate-tab-bar;
 // }
 // .tab-bar__item {
-//   @include @aether-tab-bar-item;
+//   @include @substrate-tab-bar-item;
 // }
 // ```
 //
@@ -32,7 +32,7 @@
 $tab-bar-color: #333333 !default;
 $tab-bar-text-color: lighten($tab-bar-color, 50%) !default;
 
-@mixin aether-tab-bar {
+@mixin substrate-tab-bar {
   background-color: $tab-bar-color;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
   bottom: 0;
@@ -44,7 +44,7 @@ $tab-bar-text-color: lighten($tab-bar-color, 50%) !default;
   z-index: 10;
 }
 
-@mixin aether-tab-bar-item {
+@mixin substrate-tab-bar-item {
   @include p2;
   color: $tab-bar-text-color;
   font-size: 0.8em;
@@ -52,10 +52,10 @@ $tab-bar-text-color: lighten($tab-bar-color, 50%) !default;
   text-decoration: none;
 }
 
-@mixin aether-tab-bar-item-icon {
+@mixin substrate-tab-bar-item-icon {
   font-size: 1.6em;
 }
 
-@mixin aether-tab-bar-item-title {
+@mixin substrate-tab-bar-item-title {
   @include mt1;
 }
