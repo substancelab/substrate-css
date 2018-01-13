@@ -1,6 +1,21 @@
 # Substrate CSS
 
-A CSS/Sass toolkit designed to provide a robust, consistent foundation for your design system, and otherwise get out of your way and not be noticable.
+A CSS/Sass toolkit designed to provide a robust, consistent foundation for your design system and web apps, and otherwise get out of your way and not be noticable.
+
+
+## Goals
+
+* Easy to override and customize - your application styles have access to the same underlying tools used to build Substrate.
+* Modular - include only the bits and pieces you actually need.
+* Framework agnostic - works with any backend and CSS methodology.
+* As little style as possible - the look and feel of your web app is entirely up to you.
+
+
+## Philosophy
+
+Substrate defines a bunch of components and patterns that can be reused across projects. Focus is on layout and usability, styling is up to the actual application.
+
+Nothing of Substrate should be exposed publicly in your markup or your styles, it's an implementation detail of your styles.
 
 
 ## Credits
