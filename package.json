@@ -1,5 +1,5 @@
 {
-  "name": "Substrate CSS",
+  "name": "substrate-css",
   "version": "0.0.2",
   "description": "CSS UI kit that provides solid components, leaving it to you to add the visual flair",
   "main": "src/index.js",
