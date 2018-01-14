@@ -23,7 +23,8 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "docs:build": "./node_modules/.bin/kss --config kss-config.json",
+    "docs:build": "kss --config kss-config.json",
+    "kss": "./node_modules/.bin/kss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
