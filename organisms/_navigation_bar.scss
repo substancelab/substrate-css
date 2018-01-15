@@ -12,7 +12,21 @@
 //
 // * [iOS documentation](https://developer.apple.com/ios/human-interface-guidelines/bars/navigation-bars/)
 //
+// Markup:
+// <div class="substrate-navigation-bar">
+//   <div class="substrate-navigation-bar-back">
+//     <a class="substrate-navigation-bar-item" href="#back">Go back</a>
+//   </div>
+//   <div class="substrate-navigation-bar-title">
+//     <h1 class="substrate-navigation-bar-item">Standard navigation bar</h1>
+//   </div>
+//   <div class="substrate-navigation-bar-forward">
+//     <a class="substrate-navigation-bar-item" href="#back">Add new stuff</a>
+//   </div>
+// </div>
+//
 // Styleguide Organisms.Navigation Bar
+
 @mixin substrate-navigation-bar {
   display: flex;
   justify-content: space-between;
