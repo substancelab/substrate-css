@@ -1,26 +1,24 @@
 @import "../../core/padding";
 
-// Table
-//
-// Base styling for `table` elements and its dependents, like `th`, `tr` etc.
-//
-// Markup:
-// <table>
-//   <thead>
-//     <tr>
-//       <th>Some header</th>
-//       <th>Another header</th>
-//     </tr>
-//   </thead>
-//   <tbody>
-//     <tr>
-//       <td>Some value</td>
-//       <td>Another value</td>
-//     </tr>
-//   </tbody>
-// </table>
-//
-// Styleguide Elements.Table
+/// Base styling for `table` elements and its dependents, like `th`, `tr` etc.
+///
+/// @example html
+/// <table>
+///   <thead>
+///     <tr>
+///       <th>Some header</th>
+///       <th>Another header</th>
+///     </tr>
+///   </thead>
+///   <tbody>
+///     <tr>
+///       <td>Some value</td>
+///       <td>Another value</td>
+///     </tr>
+///   </tbody>
+/// </table>
+///
+/// @group elements.table
 table {}
 
 td,

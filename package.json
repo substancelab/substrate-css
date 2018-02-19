@@ -23,13 +23,16 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "docs:build": "node-sass --output docs/build/ docs/substrate.sass && kss --config kss-config.json",
+    "docs:build": "node-sass --output docs/ docs/substrate.sass && sassdoc core atoms organisms --verbose",
     "kss": "./node_modules/.bin/kss",
     "sass": "./node_modules/.bin/node-sass",
+    "sassdoc": "./node_modules/.bin/sassdoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "sassdoc": "^2.5.0",
+    "sassdoc-theme-herman": "^2.0.0"
   },
   "devDependencies": {
     "kss": "^3.0.0-beta.18",

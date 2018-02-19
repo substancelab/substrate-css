@@ -1,0 +1,14 @@
+theme: herman
+groups:
+  Core:
+    core.border: Borders
+    core.form: Forms
+    core.margin: Margins
+    core.padding: Paddings
+  Elements:
+    elements.table: Table
+  Organisms:
+    organisms.navigation-bar: Navigation Bar
+herman:
+  customCSS: 'docs/substrate.css'
+  customHTML: ''

@@ -1,44 +1,36 @@
-// Border
-//
-// Control lines around elements.
-//
-// Styleguide Core.Border
+/// # Border
+///
+/// Control lines around elements.
+///
+/// Basically a clone of basscss/border
+///
+/// @group Core.Border
 
-// Basically a clone of basscss/border
-
-// $border-radius
-//
-// Sets the default radius when border-radius is applied to an element.
-//
-// Style guide: Core.Border.Variables
+/// Sets the default radius when border-radius is applied to an element.
+///
+/// @group Core.Border
 $border-radius: 3px !default;
 
-// $border-width
-//
-// Sets the default width of borders applied with Core.Border
-//
-// Style guide: Core.Border.Variables
+/// Sets the default width of borders applied with Core
+///
+/// @group Core.Border
 $border-width: 1px !default;
 
-// border
-//
-// Puts a border around the element.
-//
-//     .my-element {
-//       @extend @border;
-//     }
-//
-// Style guide: Core.Border.Mixins
+/// Puts a border around the element.
+///
+///     .my-element {
+///       @extend @border;
+///     }
+///
+/// @group Core.Border
 @mixin border {
   border-style: solid;
   border-width: $border-width;
 }
 
-// border-top
-//
-// Puts a border on top of the element.
-//
-// Style guide: Core.Border.Mixins
+/// Puts a border on top of the element.
+///
+/// @group Core.Border
 @mixin border-top {
   border-top-style: solid;
   border-top-width: $border-width;

@@ -1,22 +1,19 @@
-// Form
-//
-// Basic styling of input elements.
-//
-// Styleguide: Core.Form
+/// # Form
+///
+/// Basic styling of input elements.
+///
+/// Basically a clone of basscss/addons/forms
+///
+/// @group Core.Form
 
-// Basically a clone of basscss/addons/forms
-
-// substrate-form-label
-//
-// Adds label-styling to an element.
-//
-// ```
-// label {
-//   @include substrate-form-label;
-// }
-// ```
-//
-// Styleguide: Core.Form.Label
+/// Adds label-styling to an element.
+///
+/// @example
+/// label {
+///   @include substrate-form-label;
+/// }
+///
+/// @group Core.Form
 @mixin substrate-form-label {
   font-size: .875rem;
   font-weight: bold;
@@ -24,17 +21,14 @@
   margin-bottom: .5rem;
 }
 
-// substrate-form-input
-//
-// Adds styling for an interactive input control, like a text input field.
-//
-// ```
-// input[type=text] {
-//   @include substrate-form-input;
-// }
-// ```
-//
-// Styleguide: Core.Form.Input
+/// Adds styling for an interactive input control, like a text input field.
+///
+/// @example
+/// input[type=text] {
+///   @include substrate-form-input;
+/// }
+///
+/// @group Core.Form
 @mixin substrate-form-input {
   font-family: inherit;
   font-size: inherit;
@@ -48,6 +42,14 @@
   box-sizing: border-box;
 }
 
+/// Makes the element look like a select control.
+///
+/// @example
+/// select {
+///   @include substrate-form-select;
+/// }
+///
+/// @group Core.Form
 @mixin substrate-form-select {
   font-family: inherit;
   font-size: inherit;
@@ -61,6 +63,14 @@
   box-sizing: border-box;
 }
 
+/// Makes the element look like a text area.
+///
+/// @example
+/// textarea {
+///   @include substrate-form-textarea;
+/// }
+///
+/// @group Core.Form
 @mixin substrate-form-textarea {
   font-family: inherit;
   font-size: inherit;
