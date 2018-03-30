@@ -1,5 +1,9 @@
-// Reset
-//
-// Resets styles to work uniformly across browsers
+/// Reset
+///
+/// Resets styles to work uniformly across browsers
+///
+/// Uses normalize.css, see https://necolas.github.io/normalize.css/.
+///
+/// @group Core.Reset
 
 @import "../vendor/normalize.css/normalize";
