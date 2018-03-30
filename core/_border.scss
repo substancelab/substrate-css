@@ -1,8 +1,12 @@
 /// # Border
 ///
-/// Control lines around elements.
+/// Controls borders and border radii.
 ///
-/// Basically a clone of basscss/border
+/// The borders are colored using the default border color of the browser, usually black.
+/// Use `border-color` to change the line colors.
+///
+/// Basically a clone of basscss/border, see http://basscss.com/#basscss-border
+/// for details.
 ///
 /// @group Core.Border
 
@@ -18,9 +22,13 @@ $border-width: 1px !default;
 
 /// Puts a border around the element.
 ///
-///     .my-element {
-///       @extend @border;
-///     }
+/// @example scss
+///   .border.example {
+///     @extend @border;
+///   }
+///
+/// @example html
+///   <div class="border example">My Element</div>
 ///
 /// @group Core.Border
 @mixin border {
@@ -36,33 +44,74 @@ $border-width: 1px !default;
   border-top-width: $border-width;
 }
 
+/// Puts a border to the right of the element.
+///
+/// @group Core.Border
 @mixin border-right {
   border-right-style: solid;
   border-right-width: $border-width;
 }
 
+/// Puts a border on the bottom of the element.
+///
+/// @group Core.Border
 @mixin border-bottom {
   border-bottom-style: solid;
   border-bottom-width: $border-width;
 }
 
+/// Puts a border to the left of the element.
+///
+/// @group Core.Border
 @mixin border-left {
   border-left-style: solid;
   border-left-width: $border-width;
 }
 
+/// Removes all borders
+///
+/// @group Core.Border
 @mixin border-none { border: 0 }
 
+/// Rounds all corners of the element
+///
+/// @example scss
+///   .rounded.example {
+///     @extend @rounded;
+///   }
+///
+/// @example html
+///   <div class="rounded example">My Element</div>
+///
+/// @group Core.Border
 @mixin rounded { border-radius: $border-radius }
 
+/// Makes the element circular, if it's square, or elliptical if it's rectangular.
+///
+/// @group Core.Border
 @mixin circle  { border-radius: 50% }
 
+/// Rounds the two top corners of the element.
+///
+/// @group Core.Border
 @mixin rounded-top    { border-radius: $border-radius $border-radius 0 0 }
 
+/// Rounds the two right corners of the element.
+///
+/// @group Core.Border
 @mixin rounded-right  { border-radius: 0 $border-radius $border-radius 0 }
 
+/// Rounds the two bottom corners of the element.
+///
+/// @group Core.Border
 @mixin rounded-bottom { border-radius: 0 0 $border-radius $border-radius }
 
+/// Rounds the two left corners of the element.
+///
+/// @group Core.Border
 @mixin rounded-left   { border-radius: $border-radius 0 0 $border-radius }
 
+/// Removes rounded corners from the element.
+///
+/// @group Core.Border
 @mixin not-rounded { border-radius: 0 }

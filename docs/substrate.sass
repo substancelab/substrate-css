@@ -1,6 +1,24 @@
+@import 'core/_border'
+@import 'core/_padding'
+@import 'core/_reset'
+@import 'core/_system_font'
+
 @import 'atoms/elements/table'
 
 @import 'organisms/navigation_bar'
+
+body
+  +system-font
+
+.border
+  +border
+
+.example
+  +p2
+  background: #dddddd
+
+.rounded
+  +rounded
 
 .substrate-navigation-bar
   +substrate-navigation-bar
