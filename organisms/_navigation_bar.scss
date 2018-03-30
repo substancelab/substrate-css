@@ -10,18 +10,24 @@
 ///
 /// * [iOS documentation](https://developer.apple.com/ios/human-interface-guidelines/bars/navigation-bars/)
 ///
+/// All second-level elements should be added to the markup even if you don't
+/// need them to ensure proper display. You can leave them empty, though, for
+/// example if you don't need any forward actions put use empty element:
+///
+///     <div class="substrate-navigation-bar-forward"></div>
+///
 /// @example html
-/// <div class="substrate-navigation-bar">
-///   <div class="substrate-navigation-bar-back">
-///     <a class="substrate-navigation-bar-item" href="#back">Go back</a>
+///   <div class="substrate-navigation-bar">
+///     <div class="substrate-navigation-bar-back">
+///       <a class="substrate-navigation-bar-item" href="#back">Go back</a>
+///     </div>
+///     <div class="substrate-navigation-bar-title">
+///       <h1 class="substrate-navigation-bar-item">Standard navigation bar</h1>
+///     </div>
+///     <div class="substrate-navigation-bar-forward">
+///       <a class="substrate-navigation-bar-item" href="#back">Add new stuff</a>
+///     </div>
 ///   </div>
-///   <div class="substrate-navigation-bar-title">
-///     <h1 class="substrate-navigation-bar-item">Standard navigation bar</h1>
-///   </div>
-///   <div class="substrate-navigation-bar-forward">
-///     <a class="substrate-navigation-bar-item" href="#back">Add new stuff</a>
-///   </div>
-/// </div>
 ///
 /// @group organisms.navigation-bar
 @mixin substrate-navigation-bar {
