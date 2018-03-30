@@ -1,8 +1,32 @@
-// Padding
-//
-// Control spacing inside element
-
-// Basically a clone of basscss/padding
+/// # Padding
+///
+/// Control spacing inside element.
+///
+/// ## Naming Convention
+///
+/// Due to the ubiquitous nature of setting padding, these utilities use a
+/// shorthand naming convention.
+///
+/// | Shorthand | Description |
+/// | --------- | :---------- |
+/// | p         | Padding |
+/// | t         | Top |
+/// | r         | Right |
+/// | b         | Bottom |
+/// | l         | Left |
+/// | x         | X-axis (left and right) |
+/// | y         | Y-axis (top and bottom) |
+/// | n         | Negative (margin only) |
+/// | 0         | 0 reset |
+/// | 1         | $space-1 (default .5rem) |
+/// | 2         | $space-2 (default 1rem) |
+/// | 3         | $space-3 (default 2rem) |
+/// | 4         | $space-4 (default 4rem) |
+///
+/// Basically a clone of basscss/padding, see http://basscss.com/#basscss-padding
+/// for further details.
+///
+/// @group Core.Padding
 
 $space-1: .5rem !default;
 $space-2: 1rem !default;
