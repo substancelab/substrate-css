@@ -1,8 +1,30 @@
 /// # Margin
 ///
-/// Control spacing outside elements
+/// Control spacing around elements.
 ///
-/// Basically a clone of basscss/margin
+/// ## Naming Convention
+///
+/// Due to the ubiquitous nature of setting margins, these utilities use a
+/// shorthand naming convention.
+///
+/// | Shorthand | Description |
+/// | --------- | ----------- |
+/// | m         | Margin |
+/// | t         | Top |
+/// | r         | Right |
+/// | b         | Bottom |
+/// | l         | Left |
+/// | x         | X-axis (left and right) |
+/// | y         | Y-axis (top and bottom) |
+/// | n         | Negative |
+/// | 0         | 0 reset |
+/// | 1         | $space-1 (default .5rem) |
+/// | 2         | $space-2 (default 1rem) |
+/// | 3         | $space-3 (default 2rem) |
+/// | 4         | $space-4 (default 4rem) |
+///
+/// Basically a clone of basscss/margin, see http://basscss.com/#basscss-margin
+/// for further details.
 ///
 /// @group Core.Margin
 
