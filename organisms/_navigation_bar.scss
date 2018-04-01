@@ -1,6 +1,8 @@
 @import "../core/margin";
 @import "../core/padding";
 
+/// # Navigation bar
+///
 /// A navigation bar enables navigation through a series of hierarchical screens.
 ///
 /// When a new screen is displayed, a back button, often labeled with the title
@@ -30,17 +32,21 @@
 ///   </div>
 ///
 /// @group organisms.navigation-bar
+
+/// @group organisms.navigation-bar
 @mixin substrate-navigation-bar {
   display: flex;
   justify-content: space-between;
 }
 
+/// @group organisms.navigation-bar
 @mixin substrate-navigation-bar-back {
   flex-basis: 15%;
   margin-right: 0;
   order: 0;
 }
 
+/// @group organisms.navigation-bar
 @mixin substrate-navigation-bar-forward {
   display: flex;
   flex-basis: 15%;
@@ -48,6 +54,7 @@
   order: 2;
 }
 
+/// @group organisms.navigation-bar
 @mixin substrate-navigation-bar-item {
   @include m0;
   @include p2;
@@ -64,7 +71,8 @@
   }
 }
 
-// The element that contains the title, not the actual title itself.
+/// The element that contains the title, not the actual title itself.
+/// @group organisms.navigation-bar
 @mixin substrate-navigation-bar-title {
   flex-basis: 70%;
   order: 1;
