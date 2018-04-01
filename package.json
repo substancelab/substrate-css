@@ -1,6 +1,6 @@
 {
   "name": "substrate-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CSS UI kit that provides solid components, leaving it to you to add the visual flair",
   "keywords": [
     "css",
