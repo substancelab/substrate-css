@@ -33,6 +33,69 @@
 ///
 /// @group organisms.navigation-bar
 
+/// ## Extended variant
+///
+/// The default navigation bar is a compact strip across the viewport with back,
+/// title and forward elements aligned next to each other.
+///
+/// Use the extended navigation bar for a bigger navigation bar that works well
+/// as a page header, putting more emphasis on the page title. It uses the same
+/// markup as `substrate-navigation-bar`.
+///
+/// @example html
+///   <div class="substrate-extended-navigation-bar">
+///     <div class="substrate-extended-navigation-bar-back">
+///       <a class="substrate-extended-navigation-bar-item" href="#back">Go back</a>
+///     </div>
+///     <div class="substrate-extended-navigation-bar-title">
+///       <h1 class="substrate-extended-navigation-bar-item">Extended navigation bar</h1>
+///     </div>
+///     <div class="substrate-extended-navigation-bar-forward">
+///       <a class="substrate-extended-navigation-bar-item" href="#back">Add new stuff</a>
+///     </div>
+///   </div>
+///
+/// @group organisms.navigation-bar
+
+/// The main element for the extended navigation bar.
+/// @group organisms.navigation-bar
+@mixin substrate-extended-navigation-bar {
+  @include substrate-navigation-bar;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/// @group organisms.navigation-bar
+@mixin substrate-extended-navigation-bar-back {
+  @include substrate-navigation-bar-back;
+  flex-basis: 50%;
+  order: 0;
+}
+
+/// @group organisms.navigation-bar
+@mixin substrate-extended-navigation-bar-forward {
+  @include substrate-navigation-bar-forward;
+  flex-basis: 50%;
+  order: 1;
+}
+
+/// @group organisms.navigation-bar
+@mixin substrate-extended-navigation-bar-item {
+  @include substrate-navigation-bar-item;
+}
+
+/// @group organisms.navigation-bar
+@mixin substrate-extended-navigation-bar-title {
+  @include substrate-navigation-bar-title;
+  flex-basis: 100%;
+  flex-shrink: 0;
+  font-size: 2em;
+  margin-top: -$space-2;
+  order: 2;
+  text-align: left;
+}
+
+/// The main element for the navigation bar.
 /// @group organisms.navigation-bar
 @mixin substrate-navigation-bar {
   display: flex;
