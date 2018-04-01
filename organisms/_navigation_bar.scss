@@ -16,18 +16,34 @@
 /// need them to ensure proper display. You can leave them empty, though, for
 /// example if you don't need any forward actions put use empty element:
 ///
-///     <div class="substrate-navigation-bar-forward"></div>
+///     <div class="navigation-bar-forward"></div>
 ///
+/// @example scss
+///   .navigation-bar {
+///     @include substrate-navigation-bar;
+///   }
+///
+///   .navigation-bar-back {
+///     @include substrate-navigation-bar-back;
+///   }
+///
+///   .navigation-bar-forward {
+///     @include substrate-navigation-bar-forward;
+///   }
+///
+///   .navigation-bar-item {
+///     @include substrate-navigation-bar-item;
+///   }
 /// @example html
-///   <div class="substrate-navigation-bar">
-///     <div class="substrate-navigation-bar-back">
-///       <a class="substrate-navigation-bar-item" href="#back">Go back</a>
+///   <div class="navigation-bar">
+///     <div class="navigation-bar-back">
+///       <a class="navigation-bar-item" href="#back">Go back</a>
 ///     </div>
-///     <div class="substrate-navigation-bar-title">
-///       <h1 class="substrate-navigation-bar-item">Standard navigation bar</h1>
+///     <div class="navigation-bar-title">
+///       <h1 class="navigation-bar-item">Standard navigation bar</h1>
 ///     </div>
-///     <div class="substrate-navigation-bar-forward">
-///       <a class="substrate-navigation-bar-item" href="#back">Add new stuff</a>
+///     <div class="navigation-bar-forward">
+///       <a class="navigation-bar-item" href="#back">Add new stuff</a>
 ///     </div>
 ///   </div>
 ///
@@ -42,16 +58,32 @@
 /// as a page header, putting more emphasis on the page title. It uses the same
 /// markup as `substrate-navigation-bar`.
 ///
+/// @example scss
+///   .navigation-bar {
+///     @include substrate-extended-navigation-bar;
+///   }
+///
+///   .navigation-bar-back {
+///     @include substrate-extended-navigation-bar-back;
+///   }
+///
+///   .navigation-bar-forward {
+///     @include substrate-extended-navigation-bar-forward;
+///   }
+///
+///   .navigation-bar-item {
+///     @include substrate-extended-navigation-bar-item;
+///   }
 /// @example html
-///   <div class="substrate-extended-navigation-bar">
-///     <div class="substrate-extended-navigation-bar-back">
-///       <a class="substrate-extended-navigation-bar-item" href="#back">Go back</a>
+///   <div class="extended-navigation-bar">
+///     <div class="extended-navigation-bar-back">
+///       <a class="extended-navigation-bar-item" href="#back">Go back</a>
 ///     </div>
-///     <div class="substrate-extended-navigation-bar-title">
-///       <h1 class="substrate-extended-navigation-bar-item">Extended navigation bar</h1>
+///     <div class="extended-navigation-bar-title">
+///       <h1 class="extended-navigation-bar-item">Extended navigation bar</h1>
 ///     </div>
-///     <div class="substrate-extended-navigation-bar-forward">
-///       <a class="substrate-extended-navigation-bar-item" href="#back">Add new stuff</a>
+///     <div class="extended-navigation-bar-forward">
+///       <a class="extended-navigation-bar-item" href="#back">Add new stuff</a>
 ///     </div>
 ///   </div>
 ///
