@@ -33,9 +33,6 @@
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
-    "kss": "^3.0.0-beta.18",
-    "node-sass": "^4.7.2",
-    "sassdoc": "^2.5.0",
-    "sassdoc-theme-herman": "^2.0.0"
+    "kss": "^3.0.0-beta.18"
   }
 }
