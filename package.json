@@ -23,14 +23,16 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "docs:build": "node-sass --output docs/ docs/substrate.sass && sassdoc core atoms organisms --verbose",
+    "docs:build": "sass --load-path=. docs/substrate.sass:docs/substrate.css && sassdoc core atoms organisms --verbose",
     "kss": "./node_modules/.bin/kss",
-    "sass": "./node_modules/.bin/node-sass",
+    "sass": "./node_modules/.bin/sass",
     "sassdoc": "./node_modules/.bin/sassdoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "sass": "^1.41.1",
+    "sassdoc": "^2.7.3"
   },
   "devDependencies": {
     "kss": "^3.0.0-beta.18"
